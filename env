@@ -1,0 +1,5 @@
+input_data_file="sample_input.xlsx"
+output_data_file="sample_output.xlsx"
+api_key= "IBM_Cloud_API_KEY"
+assistant_url = "service_instance_url"
+assistant_environment_id = "environment_id"

@@ -1,0 +1,9 @@
+ibm-cloud-sdk-core==3.16.0
+ibm-watson==7.0.1
+numpy==1.26.1
+openpyxl==3.1.2
+pandas==1.5.3
+python-dotenv==1.0.0
+XlsxWriter==3.2.
+certifi==2023.7.22
+requests==2.31.0
