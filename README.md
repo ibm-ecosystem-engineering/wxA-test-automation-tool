@@ -46,9 +46,12 @@ The following prerequisites are required to run the tester:
    ```
 
 5. Configure parameters in .env and set the values of your environment
-   1. For your "input_data_file", see [Configuring Your Input Excel File](#configuring-your-input-excel-file)
-   2. You can name your "output_data_file" anything
-   3. Ensure both the input and output file names are of type .xlsx
+   1. `input_data_file`: the name of your input excel file (should be .xslx). For file configuration details, see [Configuring Your Input Excel File](#configuring-your-input-excel-file)
+   2. `output_data_file`: the name of your output excel file (should be .xlsx)
+   3. `api_key`: your ibm cloud api key. It should have access to the account that contains your assistant
+   4. Within your assistant UI, click "Assistant settings" on the bottom left -> navigate to Assistant IDs and API details -> click view details
+      1. `assistant_url`: your Service instance URL
+      2. `assistant_environment_id`: the environment id which contains your configured assistant (ex: Draft Environment ID or Live Environment ID)
 
 6. Run the following to start the script
 
