@@ -78,7 +78,7 @@ def query_assistant(session_id, query):
     query_results = ""
     print("2) Output:\n")
     for index, item in enumerate(response["output"]["generic"], 1):
-        if item["response_type"] == "text":
+        if (item["response_type"] == "conversational_search") or (item["response_type"] == "text"):
             print(item['text'] + "\n")
             query_results += item['text'] + "\n\n"
     query_results += "\n"
